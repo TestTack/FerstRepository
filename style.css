@@ -140,13 +140,23 @@ input, textarea {
                 }
 #button {	
 	padding: 5px;
-    border: 1px solid #552001;
+    border: 2px solid #552001;
 	background-color: #552001;
 	color: #f4ebe2;
 	text-align: center;
 	font-family: Impact;
 	font-size: 19px;
 	 }
+#button:hover {
+    background: #552001;
+    color: #f4ebe2;
+    border: 2px dotted #e8e1d1;
+        } 
+#button:active {
+     background: #f4ebe2;
+    color: #552001;
+    border: 2px solid #552001;
+        } 
 .foot {
 	clear: both;
 	text-align: center;
